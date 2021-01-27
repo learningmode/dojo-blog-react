@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### JSON SERVER endpoints
+GET    /blogs
+GET    /blogs/{id}
+POST   /blogs
+PUT    /blogs/{id}
+PATCH  /blogs/{id}
+DELETE /blogs/{id}
+
+To run json server on port 8000 otherwise put the desired port number after --port
+npx json-server --watch data/data.json --port 8000
